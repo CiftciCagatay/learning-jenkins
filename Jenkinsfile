@@ -6,7 +6,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        echo 'Building node project'
+        echo 'Building node project-s'
         sh 'npm start'
       }
     }
