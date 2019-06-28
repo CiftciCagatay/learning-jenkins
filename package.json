@@ -1,0 +1,21 @@
+{
+  "name": "learning-jenkins",
+  "version": "1.0.0",
+  "description": "Simple node app to learn jenkins",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CiftciCagatay/learning-jenkins.git"
+  },
+  "keywords": [],
+  "author": "Çağatay Çiftçi <im.cgtycftc@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CiftciCagatay/learning-jenkins/issues"
+  },
+  "homepage": "https://github.com/CiftciCagatay/learning-jenkins#readme"
+}
