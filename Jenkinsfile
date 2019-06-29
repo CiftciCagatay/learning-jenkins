@@ -1,13 +1,9 @@
 pipeline {
-  agent {
-    docker { image 'node:alpine' }
-  }
-
   stages {
-    stage('Build') {
+    stage('Dockerize') {
       steps {
-        echo 'Building node project-s'
-        sh 'npm start'
+        echo 'Building docker image'
+        sh 'docker build --no-cache -t bluefx/learning-jenkins .'
       }
     }
   }
